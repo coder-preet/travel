@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!--bootstrap css link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/eldeco.css">
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+   <!-- Navbar Start -->
+    <header class="sticky-top shadow">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a href="index.html" class="navbar-brand fw-bold">
+            <img src="icons/eldeco-logo.png" alt="" width="130">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           <li class="nav-item ps-3">
+  <a class="nav-link" href="index.html#top">Home</a></li>
+ <li class="nav-item ps-3"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item ps-3"><a class="nav-link" href="#location">Location</a></li>
+                <li class="nav-item ps-3"><a class="nav-link" href="#amenities">Amenities</a></li>
+      <li class="nav-item ps-3"><a class="nav-link" href="#gallery">Gallery</a></li>   
+       <li class="nav-item ps-3"><a class="nav-link" href="#floor-plan">Floor Plan</a></li>  
+             <li class="nav-item ps-3"><a class="nav-link" href="#price-list">Price List</a></li>         
+            <li class="nav-item ps-3"><a class="nav-link" href="#contact">Contact</a></li>
+           </ul>
+           <!-- Clickable Phone Number with Animated Icon -->
+        <a href="tel:+918076700916" class="px-3 contact-us">
+          <i class="fa-solid fa-phone phone-icon"></i> +91 8076700916
+       </a>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Navbar End -->
+
+
+
+<!--banner-->
+<section class="banner position-relative" id="top">
+  <div class="banner-heading position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50 
+              text-light d-flex flex-column justify-content-center ps-4">
+    <h1 class="text-start mb-0 display-6 fw-bold text-center">ELDECO WOW</h1>
+   
+  </div>
+
+</section>
+
+<!--BANNER-END-->
+
+
+
+
+
+<!--about-us-->
+<div class="container-fluid my-4" id="about">
+  <div class="row justify-content-center align-items-start g-4">
+    
+    <!-- Left Column: Carousel & RERA -->
+    <div class="col-12 col-md-5 col-lg-5 text-center">
+      <!-- Carousel -->
+      <div id="propertyCarousel" class="carousel slide shadow-lg rounded-4 overflow-hidden mb-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/eldeco-about3.jpg" class="d-block w-100 img-fluid" alt="Property 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/eldeco-about2.jpg" class="d-block w-100 img-fluid" alt="Property 2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/eldeco-about1.jpg" class="d-block w-100 img-fluid" alt="Property 3">
+          </div>
+        </div>
+
+        <!-- Custom Buttons -->
+        <div class="custom-nav">
+          <button class="custom-btn" type="button" data-bs-target="#propertyCarousel" data-bs-slide="prev">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="custom-btn" type="button" data-bs-target="#propertyCarousel" data-bs-slide="next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- RERA No. Box -->
+     
+        
+           <div class="col-12">
+          <div class="icon-text p-2 shadow-sm rounded-4">
+            <i class="fa-solid fa-file-contract fs-1 p-2 icon-color"></i>
+            <h5 class="mb-0 pb-2"><span class="fw-bold fs-2">Rera No.</span> UPRERAPRJ752382/09/2025</h5>
+          </div>
+        </div>
+      </div>
+   
+
+    <!-- Right Column: About Content -->
+    <div class="col-12 col-md-6 col-lg-6 about-content">
+      <h2 class="fw-bold text-center text-md-start">About Us</h2>
+      <h2 class="text-dark fs-3 text-center text-md-start"><strong>Why People Choose Us!</strong></h2>
+      <p>
+        Eldeco Sector 22D Yamuna Expressway is a one-of-a-kind residential apartment project helmed by the
+        reputed real estate developer Eldeco Group. The visionary project is located in the prime area of 
+        Sector 22D of Greater Noida, Yamuna Expressway and enjoys seamless connectivity to the rest of the 
+        city, NCR region and Noida making it the most covered address of the city.
+      </p>
+      <p>
+        This is a new upcoming project launched by Eldeco Group. The project is spread over the sprawling land
+        area and offers premium 2 BHK, 3 BHK and 4 BHK homes that boasts smart home automation and modern
+        features.
+      </p>
+      <p>
+        The signature project is launched with an aim to redefine urban living with high-end amenities and 
+        unmatched connectivity. The project embraces the epitome of lavish lifestyle at Greater Noida.
+      </p>
+
+      <!-- Icons Row -->
+      <div class="row g-3 text-center">
+        <div class="col-6">
+          <div class="icon-text p-3 shadow-sm rounded-4">
+            <i class="fa-solid fa-calendar-days fs-1 icon-color mb-2"></i>
+            <h5 class="mb-0"><span class="fw-bold fs-2">40</span> Years Experience</h5>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="icon-text p-3 shadow-sm rounded-4">
+            <i class="fa-solid fa-users fs-1 icon-color mb-2"></i>
+            <h5 class="mb-0"><span class="fw-bold fs-2">95</span>% Happy Customers</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--about-us-end-->
+
+
+
+<!--location-->
+<div class="container-fluid m-0 p-2 location-section" id="location">
+  <div class="row g-0 d-flex justify-content-center py-3">
+
+<!-- Left Text Section -->
+<div class="col-12 col-md-6 col-lg-6 px-0 location-text mb-3 mb-md-0 rounded-start-4 shadow-lg">
+  <div class="d-flex align-items-center mb-3 pt-3">
+    <h2 class="fw-bold mb-1 fs-4 ms-md-5 ps-3 text-white">Location Advantages</h2>
+  </div>
+  <ul class="list-unstyled px-3 pb-3">
+
+    <!-- Hospitals, Schools & Markets -->
+    <li class="d-flex align-items-center mb-3 p-2 rounded bg-light shadow-sm">
+      <i class="fa-solid fa-hospital me-2 fs-5 location-icons"></i>
+      <span class="fw-semibold icon-color">Close to Hospitals, Schools & Markets</span>
+    </li>
+
+    <!-- Jewar Airport -->
+    <li class="d-flex align-items-center mb-3 p-2 rounded bg-light shadow-sm">
+      <i class="fa-solid fa-plane-departure me-2 fs-5 location-icons"></i>
+      <span class="fw-semibold icon-color">20 min From Jewar Airport</span>
+    </li>
+
+    <!-- MIVAN Construction -->
+    <li class="d-flex align-items-center mb-3 p-2 rounded bg-light shadow-sm">
+      <i class="fa-solid fa-hard-hat me-2 fs-5 location-icons"></i>
+      <span class="fw-semibold icon-color">MIVAN Construction Technology</span>
+    </li>
+
+    <!-- Film City -->
+    <li class="d-flex align-items-center mb-3 p-2 rounded bg-light shadow-sm">
+      <i class="fa-solid fa-film me-2 fs-5 location-icons"></i>
+      <span class="fw-semibold icon-color">15 min From Upcoming Film City</span>
+    </li>
+
+    <!-- Planned Metro Station -->
+    <li class="d-flex align-items-center mb-3 p-2 rounded bg-light shadow-sm">
+      <i class="fa-solid fa-train me-2 fs-5 location-icons"></i>
+      <span class="fw-semibold icon-color">200m From Planned Metro Station</span>
+    </li>
+  </ul>
+</div>
+
+
+
+    <!-- Right Map Section -->
+    <div class="col-12 col-md-5 col-lg-5 px-0 rounded-end-4 overflow-hidden shadow-lg">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3512.2629696114222!2d77.53031537596311!3d28.320642498174703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cc798652b830b%3A0x388ea71ce00bb319!2sEldeco%20WOW!5e0!3m2!1sen!2sin!4v1756965536706!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+ </iframe>
+    </div>
+
+  </div>
+</div>
+<!--location-end-->
+
+
+<!--Amenities-->
+ <div class="container mt-4" id="amenities">
+     <div class="d-flex align-items-center mb-3">
+  <h2 class="fw-bold mb-0 fs-2 heading-color">Amenities</h2>
+
+</div>
+
+  
+
+  <div class="row g-4 px-3 pb-4">
+    <!-- Card 1 -->
+    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+      <div class="card text-center p-3 back-card shadow-sm h-100">
+        <div class="icon mb-3">
+          <img src="icons/hall.png" alt="Apartment" width="100" class="mt-2">
+        </div>
+        <h6 class="fw-bold">Prefunction Hall</h6>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+      <div class="card text-center p-3  shadow-sm h-100">
+        <div class="icon mb-3">
+          <img src="icons/security.png" alt="Apartment" width="100" class="mt-2">
+        </div>
+        <h6 class="fw-bold">Security</h6>
+      </div>
+    </div>
+   <!-- Card 3 -->
+    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+      <div class="card text-center p-3  shadow-sm h-100">
+        <div class="icon mb-3">
+          <img src="icons/gym.png" alt="Apartment" width="100" class="mt-2">
+        </div>
+        <h6 class="fw-bold">Gym</h6>
+      </div>
+    </div>
+    <!-- Card 4 -->
+    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+      <div class="card text-center p-3  shadow-sm h-100">
+        <div class="icon mb-3">
+          <img src="icons/swimming.png" alt="Apartment" width="100" class="mt-2">
+        </div>
+        <h6 class="fw-bold">Swimming Pool</h6>
+      </div>
+    </div>
+
+        <!-- Card 5 -->
+    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+      <div class="card text-center p-3 back-card shadow-sm h-100">
+        <div class="icon mb-3">
+          <img src="icons/football.png" alt="Apartment" width="100" class="mt-2">
+        </div>
+        <h6 class="fw-bold">Mini Football Court</h6>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+      <div class="card text-center p-3  shadow-sm h-100">
+        <div class="icon mb-3">
+          <img src="icons/reading.png" alt="Apartment" width="100" class="mt-2">
+        </div>
+        <h6 class="fw-bold">Reading Room</h6>
+      </div>
+    </div>
+   <!-- Card 7 -->
+    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+      <div class="card text-center p-3  shadow-sm h-100">
+        <div class="icon mb-3">
+          <img src="icons/party.png" alt="Apartment" width="100" class="mt-2">
+        </div>
+        <h6 class="fw-bold">Party Hall</h6>
+      </div>
+    </div>
+    <!-- Card 8 -->
+    <div class="col-6 col-sm-6 col-md-3 col-lg-3">
+      <div class="card text-center p-3  shadow-sm h-100">
+        <div class="icon mb-3">
+          <img src="icons/squash.png" alt="Apartment" width="100" class="mt-2">
+        </div>
+        <h6 class="fw-bold">Squash Court</h6>
+      </div>
+    </div>
+  </div> 
+
+
+</div>
+<!--Amenities-end-->
+
+
+
+<!-- GALLERY SECTION -->
+<section class="gallery-section py-3" id="gallery">
+  <div class="container">
+    <h2 class="fw-bold mb-3 icon-color">Our Gallery</h2>
+    <div class="row g-3">
+      <!-- Image 1 -->
+      <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="gallery-item">
+          <img src="images/Eldeco-Ballad-of-Bliss-Yamuna-Expressway_Page_25.webp" class="img-fluid rounded-4" alt="High-Rise Towers Front View">
+          <div class="overlay">
+            <span class="p-2">High-Rise Towers Front View</span>
+          </div>
+        </div>
+      </div>
+      <!-- Image 2 -->
+      <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="gallery-item">
+          <img src="images/Eldeco-Ballad-of-Bliss-Yamuna-Expressway_Page_26.webp" class="img-fluid rounded-4" alt="Lush Green Lawn with Sunset">
+          <div class="overlay">
+            <span class="p-2">Lush Green Lawn with Sunset</span>
+          </div>
+        </div>
+      </div>
+      <!-- Image 3 -->
+      <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="gallery-item">
+          <img src="images/Eldeco-Ballad-of-Bliss-Yamuna-Expressway_Page_27.webp" class="img-fluid rounded-4" alt="Tower Entrance Pathway">
+          <div class="overlay">
+            <span class="p-2">Tower Entrance Pathway</span>
+          </div>
+        </div>
+      </div>
+      <!-- Image 4 -->
+      <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="gallery-item">
+          <img src="images/Eldeco-Ballad-of-Bliss-Yamuna-Expressway_Page_28.webp" class="img-fluid rounded-4" alt="Swimming Pool and Clubhouse">
+          <div class="overlay">
+            <span class="p-2">Swimming Pool & Clubhouse</span>
+          </div>
+        </div>
+      </div>
+      <!-- Image 5 -->
+      <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="gallery-item">
+          <img src="images/Eldeco-Ballad-of-Bliss-Yamuna-Expressway_Page_29.webp" class="img-fluid rounded-4" alt="Recreational Sports Courts">
+          <div class="overlay">
+            <span class="p-2">Recreational Sports Courts</span>
+          </div>
+        </div>
+      </div>
+      <!-- Image 6 -->
+      <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="gallery-item">
+          <img src="images/Eldeco-Ballad-of-Bliss-Yamuna-Expressway_Page_30.webp" class="img-fluid rounded-4" alt="Garden View from Balcony">
+          <div class="overlay">
+            <span class="p-2">Garden View from Balcony</span>
+          </div>
+        </div>
+      </div>
+      <!-- Image 7 -->
+      <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="gallery-item">
+          <img src="images/Eldeco-Ballad-of-Bliss-Yamuna-Expressway_Page_31.webp" class="img-fluid rounded-4" alt="Amphitheatre & Landscaped Area">
+          <div class="overlay">
+            <span class="p-2">Amphitheatre & Landscaped Area</span>
+          </div>
+        </div>
+      </div>
+      <!-- Image 8 -->
+      <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="gallery-item">
+          <img src="images/Eldeco-Ballad-of-Bliss-Yamuna-Expressway_Page_32.webp" class="img-fluid rounded-4" alt="Sunset View of Residential Towers">
+          <div class="overlay">
+            <span class="p-2">Sunset View of Residential Towers</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--gallery-ends-->
+
+
+
+
+ <!--floor-plan-->
+   <div class="container-fluid  pt-2 floor-plan" id="floor-plan">
+   <div class="d-flex align-items-center mb-3">
+<h5 class="fw-bold mb-1 fs-2 ms-md-5 mt-2 icon-color">Floor Plan</h5>
+  <hr class="ms-2 heading-hr">
+</div>
+<div class="row justify-content-center">
+  <!-- First Image -->
+  <div class="col-12 col-sm-6 col-md-5 col-lg-5 mb-4">
+    <div class="position-relative floor-card mx-auto">
+      <img src="images/Eldeco-floor-plan.webp" alt="Floor Plan" class="img-fluid">
+      <div class="white-overlay"></div>
+      <div class="overlay-text">
+       <a href="#" class="d-flex align-items-center px-4" data-bs-toggle="modal" data-bs-target="#contactModal">
+  <h5 class="fw-bold text-light py-2  mb-0 ">View Plan</h5>
+  <i class="fa-solid fa-arrow-trend-up text-light fs-5 ms-2"></i>
+</a>
+      </div>
+    </div>
+     <h5 class="text-center bhk-floor py-2 shadow">3 BHK + 2T</h5>
+  </div>
+
+  <!-- Second Image -->
+  <div class="col-12 col-sm-6 col-md-5 col-lg-5 mb-4">
+    <div class="position-relative floor-card mx-auto">
+      <img src="images/Eldeco-floor-plan.webp" alt="Floor Plan" class="img-fluid">
+      <div class="white-overlay"></div>
+      <div class="overlay-text" >
+         <a href="#" class="d-flex align-items-center px-4" data-bs-toggle="modal" data-bs-target="#contactModal">
+  <h5 class="fw-bold text-light py-2  mb-0">View Plan</h5>
+  <i class="fa-solid fa-arrow-trend-up text-light fs-5 ms-2"></i>
+</a>
+      </div>
+    </div>
+     <h5 class="text-center bhk-floor py-2 shadow">3 BHK + 3T</h5>
+  </div>
+</div>
+
+   </div>
+   <!--floor-plan-end-->
+
+
+  <!--price-list-->
+<section class="counter-section pb-5" id="price-list">
+     <div class="container-fluid my-1 pt-2 " id="price-list">
+   <div class="d-flex align-items-center mb-3">
+<h5 class="fw-bold mb-1 fs-2 ms-md-5 mt-2 text-light">Price Plan</h5>
+
+</div>
+    <div class="row text-center justify-content-center g-4">
+      
+      <!-- Card 1 -->
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+        <div class="counter-card">
+          <h5>3 BHK + 2T</h5>
+          <p class="count-1">Price : 15,50 SQ.FT</p>
+ <a href="#" class="count" data-bs-toggle="modal" data-bs-target="#contactModal">Enquire Now</a>
+        </div>
+       
+      </div>
+      
+      <!-- Card 2 -->
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+        <div class="counter-card">
+          <h5>3 BHK + 3T</h5>
+       <p class="count-1"> Price : 18,50 SQ.FT</p>
+ <a href="#" class="count" data-bs-toggle="modal" data-bs-target="#contactModal">Enquire Now</a>
+        </div>
+      </div>
+      
+  
+
+    </div>
+  </div>
+</section>
+
+    <!--price-list-end-->
+
+
+<!--form-section-->
+<div class="container-fluid py-5 contact-section" id="contact">
+  <div class="row justify-content-center align-items-center"> <!-- Center content -->
+
+    <!-- Left Column (Available Flats) -->
+    <div class="col-12 col-md-5 col-lg-5 mb-4 mb-md-0">
+      <div class="p-4 rounded-4 shadow-lg bhk-card h-100 text-center">
+        <h3 class="fw-bold fs-2 bhk-heading mb-4">Available Flats</h3>
+        <ul class="list-unstyled fs-5">
+          <li class="bhk-item"><span>3 BHK + 2T</span><span class="bhk-number">15,50 sq.ft</span></li>
+          <li class="bhk-item"><span>3 BHK + 3T</span><span class="bhk-number">18,50 sq.ft</span></li>
+         
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right Column (Contact Form) -->
+    <div class="col-12 col-md-5 col-lg-5">
+      <div class="contact-card h-100 rounded-5 px-5 pt-3 pb-4 text-center">
+        <h2 class="icon-color fw-bold fs-2 mb-2">Contact</h2>
+        <p class="fs-4 mb-3"><strong>Have Any Query? Contact Us</strong></p>
+        <form>
+          <div class="row g-3 mb-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="mb-3">
+            <input type="number" class="form-control" placeholder="Phone Number" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="2" placeholder="Message" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">SEND MESSAGE</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--form-section-ends-->
+
+
+
+
+
+<!--footer-->
+  <footer class="footer-section">
+  <div class="container">
+    <div class="row gy-4">
+      
+      <!-- Logo -->
+     <div class="col-12 col-md-3 col-lg-3 text-center text-md-start">
+        <div class="footer-logo ms-3">
+          <img src="icons/eldeco-logo.png" alt="Logo" width="120">
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-12 col-md-3 col-lg-3 text-center text-md-start">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+         <li><a href="#top">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#amenities">Amenities</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-12 col-md-3  col-lg-3 text-center text-md-start">
+        <h5>Contact Us</h5>
+        <ul class="list-unstyled footer-contact">
+          <li>Email: jitendra@pujyatarealtors.com</li>
+          <li>Phone: +91 8076700916</li>
+          <li>Address: Shop No.1, Arihant Abode, Sector-10, Gr. Noida West</li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-12 col-md-3 col-lg-3 text-center text-md-start">
+        <h5>Follow Us</h5>
+        <div class="social-icons d-flex justify-content-center justify-content-md-start gap-3">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+    </div>
+    <hr class="footer-line">
+    <p class="mb-0 text-center">All Rights Reserved. © 2025 </p>
+  </div>
+</footer>
+
+
+<!--popup-->
+
+
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border-0 shadow-lg">
+      <div class="modal-header text-white border-0">
+        <h5 class="modal-title fw-bold" id="contactModalLabel">Get in Touch with Us</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-4">
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control form-control-lg" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control form-control-lg" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control form-control-lg" placeholder="Phone Number" required>
+          </div>
+          <button type="submit" class="btn popup-button-color btn-lg w-100 shadow">Get Call Back</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  
+     <!-- Bootstrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
